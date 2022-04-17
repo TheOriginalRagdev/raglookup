@@ -1,0 +1,23 @@
+{
+  "name": "Overlord Web",
+  "version": "0.0.1",
+  "description": "Just Overlord By Me",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py"
+  },
+  "dependencies": {
+    "webbot": "^1.0.17",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.1.1",
+    "url-lib": "^3.0.3",
+    "package": {
+      "name": "stdiomask",
+      "version": "0.0.6",
+      "description": "A cross-platform Python module for entering passwords to a stdio terminal and displaying a **** mask, which getpass cannot do.",
+      "category": "main",
+      "optional": false,
+      "python-versions": "*"
+    }
+  }
+}
